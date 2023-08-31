@@ -1,0 +1,112 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,800;1,700&display=swap');
+</style>
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	cursor: pointer;
+	font-family: sans-serif;
+}
+
+.main
+{
+	width: :100%;
+	padding: 0px 80px;
+}
+.type{
+	width:100% ;
+	min-height: 100vh;
+}
+body{
+	width: 100%;
+	min-height: 100vh;
+	background: black;
+}
+header{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)) ,url(webpage.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+nav li{
+	display: inline-block;
+	margin: 10px 20px;
+	font-size: 600;
+}
+navbar{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: right;
+	padding: 10px 0px;
+	position: relative;
+	z-index: 1;
+}
+.navbar ul{
+	display: flex;
+	justify-content: right;
+	align-items: right;
+	margin-top: 10px;
+}
+.navbar ul{
+	list-style: none;
+}
+.navbar ul li a{
+	padding: 10px 18px;
+	border-radius: 5px;
+	font-family: sans-serif;
+	font-size: 16px;
+	colour: black;
+	text-decoration: none;
+}
+.navbar ul li a:hover{
+	background: white;
+	color: #fff;
+	transition: 0.4% all ease-out;
+}
+.navbar h1{
+	colour: #FF0000;
+	font-size: 35px;
+	font-weight: 500px;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+.content{
+	width: 100%;
+	min-height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.content h1{
+	font-size: 45px;
+	color:white ;
+	font-weight: 400px;
+}
+.content p{
+	font-size: 25px;
+	color: black;
+}
+.content a{
+	text-decoration: blink;
+	margin-top: 20ox;
+	font-size: 20px;
+	display: inline-table;
+	letter-spacing: 2px;
+	padding:12px 20px;
+	background-color: #FF0000;
+	border-radius: 5px;
+	colour: #00008B;
+}
+.content a:hover{
+	background-color:black;
+}
+h1{
+	color: white;
+}
